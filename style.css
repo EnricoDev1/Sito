@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "Font Scritte";
+    src: url(Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: "Font Titolo";
+    src: url(Poppins-Bold.ttf);
+}
+
+:root{
+    --blu: rgb(9, 12, 54);
+    --bluhover: rgb(11, 15, 77);
+    --bianco: #ffff;
+    --azzurro: #55B1F5;
+
+    --ombra: 0px 0px 20px 0px rgba(0,0,0,0.4);
+
+}
+#partesopra{
+    height: 500px;
+    width: 100%;
+    background-color: var(--blu);
+}
+.btn{
+    height: 37px;
+    width: 150px;
+    background-color: var(--azzurro);
+    font-family: "Font Scritte";
+    color: var(--bianco);
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border:none;
+    cursor: pointer;
+}
+
+
+#titolo{
+    height: 50px;
+    width: 30px;
+    font-size: 54px;
+    color: var(--bianco);
+    font-family: "Font Titolo";
+    position: absolute;
+    top: 150px;
+    left: 220px;
+}
+#passion{
+    color: var(--azzurro);
+}
+#ImgRobot{
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+}
+#linea{
+    background-color: var(--bianco);
+    height: 200px;
+    width: 9px;
+    position: absolute;
+    top: 140px;
+    left: 450px;
+}
+#menu{
+    background: none;
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    margin:0 auto;
+    cursor: pointer;
+    color: var(--bianco);
+    font-family: "Font Scritte";
+}
+.menuTab{
+    margin: 15px;
+}
+.menuTab:hover{
+    color: var(--azzurro);
+}
